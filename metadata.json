@@ -1,0 +1,6 @@
+{
+  "name": "DesignArtPro",
+  "description": "Professional Graphic Designing & Creative Coding Studio with interactive coding playground, design portfolio, service catalogs, and client management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

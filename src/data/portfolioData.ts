@@ -1,0 +1,151 @@
+import { PortfolioItem } from '../types';
+
+export const initialPortfolioItems: PortfolioItem[] = [
+  {
+    id: 'port-logo-1',
+    title: 'Apex Dynamics Vector Emblem',
+    category: 'Logos',
+    description: 'A precision geometric monogram and abstract falcon emblem for an aerospace robotics enterprise.',
+    imageUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=1000&q=80',
+    client: 'Apex Dynamics Corp',
+    date: 'October 2026',
+    tools: ['Adobe Illustrator', 'Figma', 'Vector Grid System'],
+    featured: true,
+    liveStats: '5 concept explorations · Vector SVG delivered'
+  },
+  {
+    id: 'port-branding-1',
+    title: 'Solstice Artisan Coffee Brand Identity',
+    category: 'Branding',
+    description: 'Comprehensive brand architecture including custom serif typography, earthy packaging palettes, and cafe collateral.',
+    imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=1000&q=80',
+    client: 'Solstice Roasters',
+    date: 'September 2026',
+    tools: ['Adobe InDesign', 'Photoshop', 'Pantone Formula Guide'],
+    featured: true,
+    liveStats: '45-page Brand Book · Full Retail Packaging'
+  },
+  {
+    id: 'port-banner-1',
+    title: 'Cyber Week Global Campaign Banners',
+    category: 'Banners',
+    description: 'High-converting omnichannel digital display banners and hero web carousels for international tech flash sale.',
+    imageUrl: 'https://images.unsplash.com/photo-1542744094-3a31f272c490?auto=format&fit=crop&w=1000&q=80',
+    client: 'Vortex Electronics',
+    date: 'October 2026',
+    tools: ['Figma', 'Photoshop', 'Google Web Designer'],
+    featured: false,
+    liveStats: '18 Standard IAB Formats · +34% CTR'
+  },
+  {
+    id: 'port-cards-1',
+    title: 'Matte Black & Gold Foil Executive Cards',
+    category: 'Business Cards',
+    description: 'Triple-layer 600gsm cotton business cards with custom gold foil stamping and minimalist debossed typography.',
+    imageUrl: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1000&q=80',
+    client: 'Kensington Legal Partners',
+    date: 'August 2026',
+    tools: ['Illustrator', 'Spot-UV Die Line Prep', 'QR vCard Integration'],
+    featured: false,
+    liveStats: '600gsm Cotton Stock · Custom Foil Finish'
+  },
+  {
+    id: 'port-social-1',
+    title: 'HyperGrowth Podcast Instagram Carousel Suite',
+    category: 'Social Media Graphics',
+    description: 'Engaging 10-slide educational carousel layouts and story highlight designs optimized for viral Instagram engagement.',
+    imageUrl: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=1000&q=80',
+    client: 'HyperGrowth Media',
+    date: 'September 2026',
+    tools: ['Canva Pro Template Kit', 'Photoshop', 'Figma'],
+    featured: true,
+    liveStats: '250K+ Monthly Reach · 20 Modular Templates'
+  },
+  {
+    id: 'port-web-1',
+    title: 'Pulse Financial SaaS Dashboard & Web UI',
+    category: 'Web Design',
+    description: 'Next-generation banking and asset management interface with dark/light themes, data visualizations, and micro-interactions.',
+    imageUrl: 'https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?auto=format&fit=crop&w=1000&q=80',
+    client: 'Pulse FinTech Ltd',
+    date: 'July 2026',
+    tools: ['Figma Auto-Layout', 'Tailwind CSS Tokens', 'React'],
+    featured: true,
+    demoUrl: 'https://pulse-preview.designartpro.com',
+    liveStats: '80+ Reusable Components · WCAG AAA Accessible'
+  },
+  {
+    id: 'port-code-1',
+    title: 'Quantum Engine: Interactive Code Sandbox',
+    category: 'Coding Projects',
+    description: 'A browser-based multi-language code runner with real-time compilation simulation and syntax token highlighting.',
+    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=1000&q=80',
+    client: 'Open Source Community',
+    date: 'October 2026',
+    tools: ['React 19', 'TypeScript', 'Tailwind CSS', 'Node.js Express'],
+    featured: true,
+    demoUrl: '#editor',
+    liveStats: '15 Supported Languages · 100% Client-Side Sandbox'
+  },
+  {
+    id: 'port-wallpaper-1',
+    title: 'Cosmic Prism: 8K Abstract Desktop Wallpaper',
+    category: 'Wallpapers and Digital Artwork',
+    description: 'High-dynamic-range abstract geometric digital artwork rendered with chromatic refraction and fluid purple/pink glows.',
+    imageUrl: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1000&q=80',
+    client: 'DesignArtPro Studio Exclusive',
+    date: 'October 2026',
+    tools: ['Blender 4.2', 'Photoshop', 'Cinema 4D'],
+    featured: true,
+    liveStats: '7680x4320 Ultra-HD · Multi-Monitor Support'
+  },
+  {
+    id: 'port-logo-2',
+    title: 'Lumina Clean Tech Geometric Icon',
+    category: 'Logos',
+    description: 'Solar prism logo combining photon ray geometry and clean typography for clean energy innovators.',
+    imageUrl: 'https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1000&q=80',
+    client: 'Lumina Energy Systems',
+    date: 'August 2026',
+    tools: ['Illustrator', 'SVG Optimization', 'Figma'],
+    featured: false,
+    liveStats: '3D Mockups & Vector Package'
+  },
+  {
+    id: 'port-artwork-2',
+    title: 'Neo-Tokyo Cyberpunk Vector Mural',
+    category: 'Wallpapers and Digital Artwork',
+    description: 'Intricate isometric vector cityscape featuring illuminated neon signs, hover vehicles, and rainy asphalt reflections.',
+    imageUrl: 'https://images.unsplash.com/photo-1550684848-fac1c5b4e853?auto=format&fit=crop&w=1000&q=80',
+    client: 'Nexus Gaming Arena',
+    date: 'June 2026',
+    tools: ['Adobe Illustrator', 'Procreate', 'Large-Format Print RIP'],
+    featured: false,
+    liveStats: '12-Meter Architectural Mural Scaling'
+  },
+  {
+    id: 'port-code-2',
+    title: 'Express RESTful Studio Authentication Engine',
+    category: 'Coding Projects',
+    description: 'Production-ready Node.js & TypeScript authentication server with JWT token rotation, password hashing, and rate limiting.',
+    imageUrl: 'https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1000&q=80',
+    client: 'DesignArtPro Internal System',
+    date: 'September 2026',
+    tools: ['Node.js', 'Express', 'JWT', 'TypeScript', 'MySQL'],
+    featured: false,
+    demoUrl: '#dashboard',
+    liveStats: 'Sub-15ms Latency · BCrypt Hashing'
+  },
+  {
+    id: 'port-banner-2',
+    title: 'Echo Music Festival Billboard & Stage Graphics',
+    category: 'Banners',
+    description: 'Massive outdoor billboard prints, festival entry gates, and LED stage backdrop motion graphics.',
+    imageUrl: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=1000&q=80',
+    client: 'Echo Sound Fest',
+    date: 'May 2026',
+    tools: ['Photoshop', 'After Effects', 'CMYK Large Format'],
+    featured: false,
+    liveStats: 'Over 40,000 Attendees Impressed'
+  }
+];
